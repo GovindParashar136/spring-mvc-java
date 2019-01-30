@@ -10,13 +10,17 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
-@RequestMapping("/test")
 public class CityController {
 
 	@GetMapping("/home")
 	public String showHome() {
 
 		return "home";
+	}
+	@GetMapping("/")
+	public String showWelcome() {
+
+		return "index";
 	}
 
 	@GetMapping("/list")
