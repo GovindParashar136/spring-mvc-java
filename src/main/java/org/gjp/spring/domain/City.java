@@ -2,6 +2,7 @@ package org.gjp.spring.domain;
 
 public class City {
 	private String cityName;
+	private String country;
 
 	public String getCityName() {
 		return cityName;
@@ -10,6 +11,16 @@ public class City {
 	public void setCityName(String cityName) {
 		this.cityName = cityName;
 	}
+
+	public String getCountry() {
+		return country;
+	}
+
+	public void setCountry(String country) {
+		this.country = country;
+	}
+	
+	
 	
 	
 

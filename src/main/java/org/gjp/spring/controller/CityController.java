@@ -29,10 +29,12 @@ public class CityController {
 
 		List<City> theCities = new ArrayList<City>();
 		City city = new City();
-		city.setCityName("United Kingdom");
+		city.setCountry("United Kingdom");
+		city.setCityName("London");
 		theCities.add(city);
 		city = new City();
-		city.setCityName("India");
+		city.setCountry("India");
+		city.setCityName("Mumbai");
 		theCities.add(city);
 
 		// add the customers to the model

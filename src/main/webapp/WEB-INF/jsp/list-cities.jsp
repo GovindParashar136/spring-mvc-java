@@ -34,8 +34,10 @@
 
 		<!-- loop over and print our customers -->
 		<c:forEach var="tempCustomer" items="${cities}">
+		
 			<tr>
 				<td>${tempCustomer.cityName}</td>
+				<td>${tempCustomer.country}</td>
 			</tr>
 		</c:forEach>
 	</table>
