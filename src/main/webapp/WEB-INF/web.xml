@@ -17,7 +17,7 @@
 	</listener>
 	
 	<servlet>
-		<servlet-name>springmvcapp</servlet-name>
+		<servlet-name>mycoolwebapp</servlet-name>
 		<servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
 		<init-param>
 			<param-name>contextConfigLocation</param-name>
@@ -27,7 +27,7 @@
 	</servlet>
 
 	<servlet-mapping>
-		<servlet-name>springmvcapp</servlet-name>
+		<servlet-name>mycoolwebapp</servlet-name>
 		<url-pattern>/</url-pattern>
 	</servlet-mapping>
 
